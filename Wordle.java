@@ -139,9 +139,7 @@ public class Wordle {
         }
 
         if (!won) {
-            System.out.println("Sorry, you did not guess the word.");
-            System.out.println("The seret word was: " + secret.toUpperCase());
-
+            System.out.println("Sorry, you did not guess the word.\nThe seret word was: " + secret);
         }
 
         inp.close();
